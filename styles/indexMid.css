@@ -1,0 +1,72 @@
+
+@import url();
+
+#expl1-container > .heading{
+   
+    width: 58%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 80px;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+
+}
+
+#expl2-container > .heading{
+   
+    width: 58%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 80px;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+
+}
+
+.inner-container{
+    width: 58%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.left{
+    margin-top: -10px;
+    width: 32%;
+    font-size: 20px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.right{
+   
+    width: 58%;
+    font-family: sans-serif;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.video-container{
+    padding: 60px;
+    background-color:#282828;
+    border: 1px solid green;
+}
+
+.k-video{
+    margin: auto;
+    width: 74%;
+    position: relative;
+   
+   
+}
+.video{
+    width: 100%;
+    height: auto;
+   
+}
+
+

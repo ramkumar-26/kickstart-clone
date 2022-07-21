@@ -1,0 +1,88 @@
+#categories{
+    border: 1px solid green;
+    height: 700px;
+    width: 100%;
+    padding: 80px;
+   
+}
+
+#categories .head-container{
+    width: 90%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.head-div{
+    width: 30%;
+    height: 100%;
+    border: 1px solid red;
+    margin-left: 10%;
+}
+
+.head-div > h2{
+    font-size: 34px;
+    font-weight: lighter;
+    border: 1px solid red;
+}
+
+.tab-container{
+    height: auto;
+    width: 90%;
+    border: 1px solid red;
+    padding: 10px 0;
+}
+
+.tab-container .tab-div{
+    width: 80%;
+    border: 1px solid red;
+    margin-left: 10%;
+    height: 100%;
+    display: flex;
+}
+
+.tab-container .tab-div > button{
+    margin-right: 30px;
+    border: 0;
+    background-color: white;
+    align-items: center;
+    border: 1px solid red;
+}
+
+
+.content-container{
+    height: 70%;
+    width: 90%;
+    border: 1px solid red;
+   
+}
+.tab-content1{
+    width: 80%;
+    border: 1px solid red;
+    margin-left: 10%;
+    height: 100%;
+    
+}
+
+.row1{
+    margin-top: 30px;
+    border: 1px solid red;
+    height: 56%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para{
+    border: 1px solid green;
+    width: 54%;
+    font-weight: lighter;
+    font-size: 24px;
+    
+    
+}
+
+.interested{
+    width: 34%;
+    border: 1px solid black;
+    padding: 0 25px;
+    height: 100%;
+}
