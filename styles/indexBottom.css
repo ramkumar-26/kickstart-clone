@@ -1,0 +1,183 @@
+#categories{
+   
+    height: auto;
+    width: 100%;
+    /* padding: 80px; */
+   
+}
+
+#categories .head-container{
+    width: 90%;
+    height: auto;
+    
+    margin: auto;
+}
+
+.head-div{
+    width: 30%;
+    height: 100%;
+   
+    margin-left: 10%;
+}
+
+.head-div > h2{
+    font-size: 34px;
+    font-weight: lighter;
+   
+}
+
+.tab-container{
+    height: auto;
+    width: 90%;
+   
+    padding: 10px 0;
+    margin: auto;
+}
+
+.tab-container .tab-div{
+    width: 80%;
+   
+    margin-left: 10%;
+    height: 100%;
+    display: flex;
+}
+
+
+
+.tab-container .tab-div > button{
+    margin-right: 30px;
+    border: 0;
+    background-color: white;
+    align-items: center;
+    cursor: pointer;
+    color: grey;
+}
+
+.tab-div button.active {
+    color: black;
+}
+
+
+
+
+.content-container{
+    height: 80%;
+    width: 90%;
+   
+    margin: auto;
+}
+.tab-content{
+    width: 80%;
+   
+    margin-left: 10%;
+    height: 100%;
+    
+}
+
+.row1{
+    margin-top: 30px;
+   
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para{
+    margin-top: 20px;
+    width: 60%;
+    font-weight: lighter;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.interested{
+    width: 30%;
+    border: 1px solid black;
+    padding: 0 25px;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.interested button{
+    height: 40px;
+    padding: 0 10px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    display: block;
+}
+
+.interested > p:nth-child(2){
+    font: 30px;
+}
+.interested>p:nth-child(4){
+   font-size: 12px;
+   
+}
+
+.interested>p>a{
+    text-decoration: none;
+}
+
+.grid-card{
+    width: 100%;
+   
+    display: grid;
+    height: 180px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+
+.grid-card > div > img{
+    height: auto;
+    width: 100%;
+}
+
+.grid-card > div > a{
+    text-decoration: none;
+    color: black;
+}
+.grid-card a:hover{
+    color: rgb(0, 122, 128);
+    text-decoration: underline;
+}
+
+#quote2-container{
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    background-color:  #FFCBA9;
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#quote2{
+    width: 60%;
+    margin: auto;
+    
+    height: 70%;
+    align-items: center;
+    
+}
+
+#quote2 > h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#quote2>p{
+    font-family: sans-serif;
+}
+
+#quote2>button{
+    height: 40px;
+    padding: 0 20px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border:0;
+
+    
+}
