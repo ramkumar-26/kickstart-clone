@@ -1,0 +1,136 @@
+#header-div{
+    margin-top: 60px;
+    width: 40%;
+    height:auto;
+    margin-left: 22%;
+    margin-bottom: 60px;
+}
+
+#header-div h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: -5px;
+}
+
+#header-div button{
+    margin-top: -10px;
+    height: 44px;
+    width: 24%;
+    padding: 10px;
+    color: white;
+    background-color: #028858;
+    border: 0px;
+    font-weight: bold;
+}
+
+#topImages {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 58% 42%;
+    grid-template-rows: 270px 270px ;
+    gap: 40px;
+    grid-template-areas: 
+    "box1 box2"
+    "box1 box3";
+}
+
+#topImages > div {
+   
+    
+}
+
+#topImages > div:nth-child(1){
+    grid-area: box1;
+    background-image: url("https://a.kickstarter.com/assets/projects/learn/refresh/feature-1-6e68a182e1340ce87d9b3c9f9a25da52935d14be496a4e88085025ae54bb870d.jpg");
+    background-size: 100% ;
+    
+}
+
+#topImages > div:nth-child(2){
+    grid-area: box2;
+    background-image: url("https://a.kickstarter.com/assets/projects/learn/refresh/feature-2-8c80ae939629f8b10087e097c965990ff4b3eae72b90b51fc597c7f794420881.jpg");
+    background-size: 100% ;
+}
+
+
+#topImages > div:nth-child(3){
+    grid-area: box3;
+    background-image: url("https://a.kickstarter.com/assets/projects/learn/refresh/feature-3-48fe9583f16524ea8412cbb862901b00af1aaf669fdcf43f466f34af5696fc08.jpg");
+    background-size: 100% ;
+}
+
+#topImages > div{
+   
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+   
+}
+
+#topImages > div > p {
+    
+    margin-bottom: 5px;
+}
+
+
+
+#topImages > div > p >span{
+   padding-top: 3px;
+   padding-bottom: 3px;
+   height: 20px;
+   font-size: 18px;
+   background-color: white;
+}
+
+
+
+.quote1-container{
+    background-color: #034752;
+    padding: 80px;
+    margin-top: 90px;
+}
+
+.quote-1{
+    display: flex;
+}
+
+.quote-1 > div:nth-child(1){
+   
+    font-size: 40px;
+    opacity: 0.3;
+    width: 20%;
+    display: flex;
+    margin-top: -40px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.quote-1 > div:nth-child(2){
+    margin: auto;
+   
+    width: 60%;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 2%;
+}
+
+.quote-1 > div:nth-child(2) > h1{
+    font-weight: 100;
+    line-height: -10px;
+}
+
+.quote1-container > div:nth-child(2){
+  
+    margin: auto;
+    color: white;
+    width: 55%;
+    margin-top: 30px;
+}
+
+
+
+
+
