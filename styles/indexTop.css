@@ -87,17 +87,20 @@
 
 
 
-#quote1-container{
+.quote1-container{
+
     background-color: #034752;
     padding: 80px;
     margin-top: 90px;
 }
 
-#quote-1{
+
+.quote-1{
     display: flex;
 }
 
-#quote-1 > div:nth-child(1){
+.quote-1 > div:nth-child(1){
+
    
     font-size: 40px;
     opacity: 0.3;
@@ -107,7 +110,9 @@
     align-items: flex-start;
     justify-content: flex-end;
 }
-#quote-1 > div:nth-child(2){
+
+.quote-1 > div:nth-child(2){
+
     margin: auto;
    
     width: 60%;
@@ -117,12 +122,15 @@
     margin-left: 2%;
 }
 
-#quote-1 > div:nth-child(2) > h1{
+
+.quote-1 > div:nth-child(2) > h1{
+
     font-weight: 100;
     line-height: -10px;
 }
 
-#quote1-container > div:nth-child(2){
+.quote1-container > div:nth-child(2){
+
   
     margin: auto;
     color: white;
